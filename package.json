@@ -1,5 +1,5 @@
 {
-  "name": "v8capnp",
+  "name": "capnp",
   "version": "0.0.1",
   "description": "A wrapper for the C++ Cap'n Proto library",
   "main": "lib/capnp.js",
