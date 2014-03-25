@@ -1,16 +1,11 @@
 {
- 'make_global_settings': [
-    ['CXX','/usr/bin/clang++'],
-    ['LINK','/usr/bin/clang++'],
-  ],
   'targets': [
     {
       'target_name': 'v8capnp',
       'sources': ['lib/v8capnp.cc'],
       'libraries': ['-lkj', '-lkj-async', '-lcapnp', '-lcapnpc', '-lcapnp-rpc'],
       "cflags_cc": [
-        "-std=c++11",
-        "-stdlib=libc++"
+        "-std=c++11"
       ],
       'cflags_cc!': [ '-fno-rtti' ],
       'conditions': [
